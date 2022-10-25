@@ -1,0 +1,17 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <div class="notification-icon-container">
+        <div *ngIf="!hasNotification">
+            <button type = "button" class="icon-button" (click)="handleClick()">
+                <span class="material-icons">notifications</span>
+                <span class = "icon-button-default"></span>
+            </button>
+        </div>
+        <div *ngIf="hasNotification">
+            <button type = "button" class="icon-button" (click)="handleClick()">
+                <span class="material-icons">notifications</span>
+                <span class = "icon-button__badge"></span>
+            </button>
+        </div>
+      </div>
