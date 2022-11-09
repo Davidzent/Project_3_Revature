@@ -8,6 +8,7 @@ import freemarker.cache.TemplateLoader;
 import freemarker.template.Configuration;
 
 @org.springframework.context.annotation.Configuration
+
 public class EmailUtil {
 
 	public FreeMarkerConfigurer freemarkerClassLoaderConfig() {
